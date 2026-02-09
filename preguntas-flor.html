@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacciones - Distrito de Medellín</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Simple Header -->
+    <header class="simple-header">
+        <div class="container header-content">
+            <img src="ESCUDO.png" alt="Alcaldía de Medellín" class="header-logo">
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Rentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="preguntas-flor.html" class="nav-link active">Preguntas Flor</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Interacciones Content Section -->
+        <section class="interacciones-main-section">
+            <h2>Seleccione una pregunta:</h2>
+            
+            <div class="concept-selector-container">
+                <select id="preguntaSelector" class="concept-selector">
+                    <option value="">-- Seleccione una pregunta --</option>
+                    <option value="interaccion">Interacción</option>
+                    <option value="predial">Impuesto Predial</option>
+                    <option value="ica">Impuesto de Industria y Comercio (ICA)</option>
+                    <option value="alternativas-pago">Alternativas de Pago</option>
+                    <option value="requisitos-fp">Requisitos para Facilidad de Pago</option>
+                    <option value="otras-areas">Otras Áreas</option>
+                    <option value="puntos-atencion">Puntos de Atención</option>
+                    <option value="documentos-requeridos">Documentos Requeridos para la Entrega de la Factura o Validación de Identidad</option>
+                </select>
+            </div>
+            
+            <div id="detalleInteraccion" class="concept-info-display" style="display: none;">
+                <!-- Detalle will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

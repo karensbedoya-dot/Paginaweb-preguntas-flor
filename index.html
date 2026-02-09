@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad de Cobranzas - Distrito de Medellín</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Simple Header -->
+    <header class="simple-header">
+        <div class="container header-content">
+            <img src="ESCUDO.png" alt="Alcaldía de Medellín" class="header-logo">
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Rentas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="preguntas-flor.html" class="nav-link">Preguntas Flor</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Concept Selection Section -->
+        <section class="concept-selection-section">
+            <h2>Seleccione el concepto de cobro:</h2>
+            
+            <div class="concept-selector-container">
+                <select id="conceptSelector" class="concept-selector">
+                    <option value="">-- Seleccione un concepto --</option>
+                    <option value="impuesto-predial">Impuesto Predial</option>
+                    <option value="impuesto-telefonico">Impuesto Telefónico</option>
+                    <option value="ica">Industria y Comercio (ICA)</option>
+                    <option value="multas-policia">Multas Código de Policía</option>
+                    <option value="pot">POT (Obligaciones Urbanísticas)</option>
+                    <option value="publicidad">Publicidad Exterior Visual</option>
+                    <option value="espacio-publico">Aprovechamiento Espacio Público</option>
+                    <option value="espectaculos">Espectáculos Públicos</option>
+                    <option value="ingresos-no-tributarios">Ingresos No Tributarios</option>
+                    <option value="multas-salud">Multas de Salud</option>
+                    <option value="credito-vivienda">Crédito de Vivienda</option>
+                    <option value="arrendamientos">Arrendamientos Bienes Inmuebles</option>
+                    <option value="circulacion-transito">Circulación y Tránsito</option>
+                    <option value="multas-urbanisticas">Multas Urbanísticas</option>
+                    <option value="costas-procesales">Costas Procesales</option>
+                    <option value="sancion-no-responder">Sanción por No Responder</option>
+                    <option value="cuotas-partes">Cuotas Partes Pensionales</option>
+                    <option value="sanciones-fiscalizacion">Sanciones Fiscalización</option>
+                    <option value="estampilla-pro-cultura">Estampilla Pro Cultura</option>
+                    <option value="banco-distrital">Banco Distrital</option>
+                    <option value="delineacion-urbana">Delineación Urbana</option>
+                </select>
+            </div>
+
+            <div id="conceptInfo" class="concept-info-display" style="display: none;">
+                <!-- Info will be dynamically inserted here -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
