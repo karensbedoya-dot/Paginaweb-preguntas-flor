@@ -314,7 +314,7 @@ const preguntasFlorData = {
                     'Paso 5: Selecciona "Impuesto predial unificado"',
                     'Paso 6: Da clic en la casilla "Generación de documento de abono" Allí podremos visualizar las matrículas asociadas al contribuyente',
                     'Paso 7: Clic en "ver cartera"',
-                    'Paso 8: Clic en "Ver desgloses o abonos por vigencia"',
+                    'Paso 8: Clic en "Ver deuda por años"',
                     'Paso 9: Ingresar el valor en la casilla de la vigencia a la cual desea abonar',
                     'Paso 10: Clic en "Generar Documento"',
                     'Paso 11: Iniciar el pago por PSE'
@@ -418,7 +418,7 @@ const preguntasFlorData = {
                     'Ingresa al campo "Portal tributario"',
                     'Selecciona "impuesto de industria y comercio y complementarios"',
                     'Selecciona "Generación de documento Abono"',
-                    'Clic en "Ver desgloses o abonos por vigencia"',
+                    'Clic en "Ver deuda por años"',
                     'Ingresar el valor en la casilla de la vigencia a la cual desea abonar',
                     'Clic en "Generar Documento"',
                     'Iniciar el pago por PSE'
@@ -1234,3 +1234,4 @@ document.addEventListener('DOMContentLoaded', () => {
     
     console.log('✅ Sistema de Rentas e Interacciones inicializado correctamente');
 });
+
